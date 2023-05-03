@@ -51,13 +51,13 @@ code {
 
 /* NAVBAR */
 
-.dropdown-item.disabled-item,
+/*.dropdown-item.disabled-item,
 .nav-link.disabled-item {
   color: #6c757d50;
   background-color: transparent;
   cursor: not-allowed;
   pointer-events: none;
-}
+}*/
 
 .nav-round {
   color: #fff;
@@ -218,11 +218,11 @@ code {
 
 /* FIX NON-WRAPPING ON LONG ITEMS */
 
-@media (max-width: 500px) {
+/*@media (max-width: 500px) {
   .dropdown-item {
     white-space: normal;
   }
-}
+}*/
 
 /* LIST OF PRESENTERS */
 
