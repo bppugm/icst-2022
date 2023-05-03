@@ -939,7 +939,7 @@ code {
   border-radius: .5rem;
 }
 
-p {
+p , li {
   font-family: 'Merriweather Sans';
   font-weight: 300;
   font-size: 14px;
