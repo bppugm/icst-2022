@@ -19,8 +19,8 @@
   <link href="stylesheets/custom.css" rel="stylesheet" />
 
   <!-- JAVASCRIPT -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="javascripts/bootstrap.js"></script>
+  <script src="javascripts/bootstrap.bundle.js"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113279197-1"></script>
   <script src="javascripts/gtag.js"></script>
@@ -74,8 +74,34 @@
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item"><a class="nav-link" href="article/about.html">About</a></li>
-              <li class="nav-item"><a class="nav-link" href="article/satellite-events.html">Satellite events</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="article/about.html">About ICST 2022</a></li>
+                  <li><a class="dropdown-item" href="index.html#important-dates">Important dates</a></li>
+                  <li><a class="dropdown-item" href="article/about.html#committee">Committees</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://icst.ugm.ac.id/previous">Previous conferences</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Satellite events
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="article/satellite-events.html">All event</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="article/computer-and-information-technology.html">CIT Symposium</a></li>
+                  <li><a class="dropdown-item" href="article/electronics-power-communication-control-and-instrumentation.html">EPCCI Symposium</a></li>
+                  <li><a class="dropdown-item" href="article/life-sciences-materials-and-applied-chemistry.html">LSMAC Symposium</a></li>
+                  <li><a class="dropdown-item" href="article/mechanical-and-industrial-engineering.html">MIE Symposium</a></li>
+                  <li><a class="dropdown-item" href="article/remote-sensing-and-geomatics.html">RSG Symposium</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="article/geoscience-and-environmental-management.html">GEM Symposium</a></li>
+                </ul>
+              </li>
               <li class="nav-item"><a class="nav-link" href="article/speakers.html">Speakers</a></li>
               <li class="nav-item"><a class="nav-link" href="article/fee.html">Fee</a></li>
               <li class="nav-item"><a class="nav-link" href="article/program.html">Program</a></li>
@@ -127,7 +153,7 @@
               Sensing and Geomatics symposium</a>.</p>
           <p>ICST 2022 is in conjunction with the <a href="article/geoscience-and-environmental-management.html">3rd
               Geoscience and Environmental Management symposium</a>.</p>
-          <p>The accepted and presented papers <b>will be submitted for possible inclusion</b> to journals/proceedings that are
+          <p>The accepted and presented papers <b>has been submitted for possible inclusion</b> to journals/proceedings that are
             indexed by Scopus/CPCI/DOAJ: <a target="_blank" href="https://conferences.ieee.org/conferences_events/conferences/conferencedetails/56971">IEEE Xplore Digital Library</a>, <a target="_blank" href="https://iopscience.iop.org/journal/1755-1315">IOP Conference Series: Earth and
               Environmental Science</a>, <a target="_blank" href="https://aip.scitation.org/journal/apc">AIP Conference Proceedings</a>, or <a target="_blank" href="https://www.scientific.net/">Scientific.Net</a>.</p>
         </div>
@@ -171,7 +197,7 @@
           <div class="col-md-3 mb-3 text-center">
             <img src="images/speakers/2022_dutkiewicz.png" class="speaker-img" alt="Josaphat T. S. Sumantyo">
             <div class="speaker-info">
-              <p class="speaker-name">Prof. Eryk Dutkiewicz</p>
+              <p class="speaker-name">Eryk Dutkiewicz</p>
               <p class="speaker-aff">University of Technology Sydney, Australia</p>
             </div>
           </div>
@@ -179,7 +205,7 @@
           <div class="col-md-3 mb-3 text-center">
             <img src="images/speakers/2022_kuroda.png" class="speaker-img" alt="Djagal W. Marseno">
             <div class="speaker-info">
-              <p class="speaker-name">Prof. Tomohiro Kuroda</p>
+              <p class="speaker-name">Tomohiro Kuroda</p>
               <p class="speaker-aff">Kyoto University, Japan</p>
             </div>
           </div>
@@ -187,7 +213,7 @@
           <div class="col-md-3 mb-3 text-center">
             <img src="images/speakers/2022_ying.png" class="speaker-img" alt="Wouter Saeys">
             <div class="speaker-info">
-              <p class="speaker-name">Prof. Jackie Y. Ying</p>
+              <p class="speaker-name">Jackie Y. Ying</p>
               <p class="speaker-aff">NanoBio Lab, IMRE, A*STAR, Singapore</p>
             </div>
           </div>
@@ -269,7 +295,7 @@
       <p class="credit text-muted text-justify">The International Conference on Science and Technology 2022,
         organized by <a target="_blank" href="https://publikasi.ugm.ac.id/en/">BPP UGM</a>.
         Website has been redeveloped by <a target="_blank" href="https://www.linkedin.com/in/rafieiy/">Rafieiy</a> using
-        <a target="_blank" href="https://getbootstrap.com/docs/5.3">Bootstrap v5.3.0-alpha3</a>,
+        <a target="_blank" href="https://getbootstrap.com/docs/5.3/">Bootstrap v5.3.6</a>,
         and licenced as <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA
           4.0</a>,
         <a target="_blank" href="https://github.com/bppugm/icst-2022">unless otherwise stated</a>.
