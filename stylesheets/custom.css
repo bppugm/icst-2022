@@ -33,6 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   text-align: center;
   margin: 0.67em 0 !important;
+  font-size: 40px !important;
 }
 
 /* JUMBOTRON */
@@ -115,7 +116,7 @@ code {
   text-transform: uppercase;
   font-weight: 800;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 10pt;
   letter-spacing: .5px;
 }
 
@@ -127,20 +128,20 @@ code {
   text-transform: uppercase;
   font-weight: 800;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 10pt;
   letter-spacing: .5px;
 }
 
 /* NAV Item */
 
 .nav-item a {
-  color: grey;
   font-family: 'Dosis' !important;
   text-transform: uppercase;
   font-weight: 800;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 10pt;
   letter-spacing: .5px;
+  color: #1f73cc;
 }
 
 .nav-item .nav-link:hover {
@@ -154,13 +155,21 @@ code {
 }
 
 .nav-item a.active {
+  border-bottom: 2px solid #1f73cc;
+  padding-bottom: 3px;
   color: #1f73cc !important;
 }
 
 /* NAV Pills */
 
-.nav-pills .nav-link {
+.nav-pills {
   border-radius: .5rem !important;
+  font-family: 'Dosis' !important;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-decoration: none;
+  font-size: 10pt;
+  letter-spacing: .5px;
   color: #1f73cc;
 }
 
@@ -315,7 +324,7 @@ code {
 
 .program-title {
   font-size: 1.5rem;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 @media (max-width: 500px) {
@@ -468,7 +477,7 @@ code {
     text-transform: uppercase;
     font-weight: 800;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 10pt;
     letter-spacing: .5px;
   }
 }
@@ -480,7 +489,7 @@ code {
     text-transform: uppercase;
     font-weight: 800;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 10pt;
     letter-spacing: .5px;
   }
 }
@@ -604,12 +613,12 @@ code {
 
 .registration-closed-big-text {
   font-size: 3.3rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .registration-closed-medium-text {
   font-size: 1.3rem;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .registration-closed-logo {
@@ -656,12 +665,12 @@ code {
 }
 
 .article-list .modal-title {
-  font-weight: 400 !important;
+  font-weight: 500 !important;
 }
 
 .article-list .authors {
   margin-bottom: 0.75rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.1;
 }
 
@@ -679,7 +688,7 @@ code {
 }
 
 .article-list .card-title {
-  font-weight: 400 !important;
+  font-weight: 500 !important;
   margin-bottom: 0.5rem;
 }
 
@@ -712,7 +721,7 @@ code {
   font-family: 'Dosis' !important;
   text-transform: uppercase;
   font-weight: 800;
-  font-size: 14px;
+  font-size: 10pt;
   padding-left: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -815,7 +824,7 @@ code {
 .blue-area p {
   color: rgba(255, 255, 255, 0.9);
   font-size: 1.3rem;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1.3;
 }
 
@@ -927,8 +936,8 @@ code {
 }
 .speaker-aff {
   font-size: .8rem;
-  font-weight: 400;
-  font-family: "Merriweather Sans";
+  font-weight: 500;
+  font-family: "Albert Sans";
 }
 
 /* satellite events */
@@ -940,22 +949,22 @@ code {
 }
 
 p , li {
-  font-family: 'Merriweather Sans';
-  font-weight: 300;
-  font-size: 14px;
+  font-family: 'Albert Sans';
+  font-weight: 500;
+  font-size: 10pt;
   line-height: 1.5em;
 }
 
 .alert p {
-  font-family: 'Merriweather Sans';
-  font-weight: 300;
-  font-size: 14px;
+  font-family: 'Albert Sans';
+  font-weight: 500;
+  font-size: 10pt;
 }
 
 ol li {
-  font-family: 'Merriweather Sans';
-  font-weight: 300;
-  font-size: 14px;
+  font-family: 'Albert Sans';
+  font-weight: 500;
+  font-size: 10pt;
   line-height: 1.5em;
 }
 
@@ -1015,9 +1024,9 @@ li a:hover {
 /* Table */
 
 .table {
-  font-family: 'Merriweather Sans';
-  font-weight: 300;
-  font-size: 14px;
+  font-family: 'Albert Sans';
+  font-weight: 500;
+  font-size: 10pt;
   line-height: 1.5em;
 }
 
@@ -1030,9 +1039,9 @@ li a:hover {
 }
 
 .accordion-item {
-  font-family: 'Merriweather Sans';
-  font-weight: 300;
-  font-size: 14px;
+  font-family: 'Albert Sans';
+  font-weight: 500;
+  font-size: 10pt;
   line-height: 1.5em;
 }
 
@@ -1042,7 +1051,7 @@ li a:hover {
   text-transform: uppercase;
   font-weight: 800;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 10pt;
   letter-spacing: .5px;
   --bs-btn-hover-color: #40bb6a;
   --bs-btn-hover-bg: none;
@@ -1052,3 +1061,14 @@ li a:hover {
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link.active {
   color: #40bb6a !important;
 }
+
+.second-nav {
+  background-color: #f8f7fd;
+  border-radius: 5px auto;
+}
+
+/* Simple styling to size an SVG */
+  .icon {
+    height: 10pt;
+    vertical-align: -0.125em;
+  }
